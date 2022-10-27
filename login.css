@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #edf2f9;
+  }
+
+  .container {
+    margin:  auto;
+    padding: 16px ;
+    background-color: #fcfcfc;
+    position: relative;
+    top: 30px;
+    height: 450px; 
+    width: 500px;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    display: block;
+    background: #f1f1f1;
+    margin: 5px 0 15px 0;
+    border: none;
+  }
+
+  button {
+    background-color: dodgerblue;
+    color: white;
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    margin: 15px 0;
+    cursor: pointer;
+  }
+
+  .navbar {
+     padding: 30px;
+  }
+
+  a.psw {
+    float: right;
+    color: dodgerblue;
+  }
+
+   hr {
+    margin-bottom: 25px;
+  }
